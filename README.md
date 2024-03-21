@@ -1,5 +1,5 @@
-# D3 starter templates
-Download the the folder(s) of your choice. There is no wrong choice. Each folder has its own README -- don't forget to read that!
+# bikes vs buses 2022 chicago
 
-* `pure-html`: Just pure HTML, CSS, and Javascript.  *Best if you want to keep things really simple or if you're a beginner in web development.*
-* `lightweight-build`: A lightweight Snowpack build system.  Requires a NodeJS installation.  *Best if you want to use packages from npm.*
+1. Open `index.html` in any web browser. If you see map, it's working.
+2. Modify code by opening the html, css, and/or js files in a text editor.
+3. Reload `index.html` in the web browser to see any changes.
