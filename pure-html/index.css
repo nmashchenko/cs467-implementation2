@@ -1,1 +1,7 @@
 /* Insert your global CSS here. */
+
+.name {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

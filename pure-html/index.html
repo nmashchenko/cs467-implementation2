@@ -9,10 +9,58 @@
 </head>
 
 <body>
-  <p>Modify this HTML file as you see fit.  Don't forget to read the README!</p>
+  <div style="width: 100%;display: flex; justify-content: center; align-items: center; flex-direction: column; margin-bottom: 15px;">
+    <p style="font-size: 45px; margin: 10px;">Buses vs Bikes 2022 Chicago</p>
+      <div style="font-size: 25px">
+        <input class="name" id="Buses" type="checkbox" onchange="drawPoints()"><span style="color: blue;">Buses</span>
+        <input class="name" id='Bikes' type='checkbox' onchange="drawPoints()"><span style="color: green;">Bikes</span>
+      </div>
+    <div style="width: 400px;">
+      <input id='slide' type='range' value='0' min='0' max='11' onchange="tt_s()" style="width: 100%; cursor: pointer;"> 
+      <div style="display: flex; justify-content: space-between;">
+        <p>Jan</p>
+        <p>Feb</p>
+        <p>Mar</p>
+        <p>Apr</p>
+        <p>May</p>
+        <p>June</p>
+        <p>Jul</p>
+        <p>Aug</p>
+        <p>Sep</p>
+        <p>Oct</p>
+        <p>Nov</p>
+        <p>Dec</p>
+      </div>
+    </div>
+  </div>
+
   <script src="https://d3js.org/d3.v6.min.js"></script>
 
-  <svg class='map' width="1400" height="550"></svg>
+  <svg class='map' width="1700" height="1050"></svg>
+  <script src='bikes_data/output1.js'></script>
+  <script src='bikes_data/output2.js'></script>
+  <script src='bikes_data/output3.js'></script>
+  <script src='bikes_data/output4.js'></script>
+  <script src='bikes_data/output5.js'></script>
+  <script src='bikes_data/output6.js'></script>
+  <script src='bikes_data/output7.js'></script>
+  <script src='bikes_data/output8.js'></script>
+  <script src='bikes_data/output9.js'></script>
+  <script src='bikes_data/output10.js'></script>
+  <script src='bikes_data/output11.js'></script>
+  <script src='bikes_data/output12.js'></script>
+  <script src='buses_data/output1.js'></script>
+  <script src='buses_data/output2.js'></script>
+  <script src='buses_data/output3.js'></script>
+  <script src='buses_data/output4.js'></script>
+  <script src='buses_data/output5.js'></script>
+  <script src='buses_data/output6.js'></script>
+  <script src='buses_data/output7.js'></script>
+  <script src='buses_data/output8.js'></script>
+  <script src='buses_data/output9.js'></script>
+  <script src='buses_data/output10.js'></script>
+  <script src='buses_data/output11.js'></script>
+  <script src='buses_data/output12.js'></script>
   <script src='index.js'></script>
 </body>
 </html>
