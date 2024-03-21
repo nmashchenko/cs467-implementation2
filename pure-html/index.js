@@ -27810,6 +27810,24 @@ for (var i = 0; i < 10; i++) {
     .attr("fill", "rgb(0," + 255 * 0.1 * (10 - i) + ",0)");
 }
 
+var labels = [
+  { text: "No Problem", x: 860 },
+  { text: "High Rate", x: 960 },
+  { text: "Both", x: 1050 },
+  { text: "Low Rate", x: 1120 },
+  { text: "No Problem", x: 1200 },
+];
+
+labels.forEach(function (label) {
+  svg
+    .append("text")
+    .attr("x", label.x)
+    .attr("y", 30)
+    .text(label.text)
+    .attr("fill", "black") // Set text color if needed
+    .attr("font-size", "12px"); // Set font size if needed
+});
+
 svg
   .append("text")
   .attr("x", 860)
